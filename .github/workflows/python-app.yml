@@ -19,6 +19,7 @@ jobs:
           pip install --upgrade pip
           pip install --upgrade buildozer cython virtualenv
           sudo apt install -y libffi-dev libssl-dev
+          pip install buildozer python-for-android
 
       - name: Setup Buildozer
         run: |
