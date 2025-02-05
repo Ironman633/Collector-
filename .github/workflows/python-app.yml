@@ -28,8 +28,5 @@ jobs:
       - name: Create missing directories
         run: mkdir -p ~/.buildozer/android/platform/python-for-android
 
-      - name: Initialize Buildozer
-        run: buildozer init
-
       - name: Run Buildozer
         run: buildozer -v android debug
