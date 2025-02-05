@@ -20,7 +20,7 @@ jobs:
       - name: Install dependencies
         run: |
           pip install --upgrade pip
-          pip install buildozer python-for-android
+          pip install buildozer python-for-android cython  # Added cython here
 
       - name: Clean previous build
         run: rm -rf ~/.buildozer
